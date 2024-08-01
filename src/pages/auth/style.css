@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../../assets/backgroundAuth.png");
+    background-size: cover;
+}
+
+.login-page {
+    position: relative;
+    width: 420px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.328);
+}
+
+.login-page .login-card {
+    width: 100%;
+    padding: 35px;
+    padding-top: 115px;
+}
+
+form .logo{
+    position: absolute;
+    right: 42%;
+    top: 25px;
+    height: 75px;
+    width: 75px;
+}
+
+form h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+form .input-box{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.input-box input::placeholder{
+    font-family: "Poppins", sans-serif;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    translate: 0 -40%;
+    font-size: 16px;
+}
+
+form .forgot-password{
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+    margin: -5px 0 5px;
+}
+
+.forgot-password a{
+    color: rgb(21, 91, 197);
+    text-decoration: none;
+}
+
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+
+form .log-in{
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: 0px solid black;
+    background: rgb(31, 162, 232);
+    color: white;
+    box-shadow: 0 0 2px black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+form button:hover{
+    box-shadow: 0 0 5px black;
+}
+
+form .sign-up{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+
+.sign-up a{
+    color: rgb(21, 91, 197);
+    text-decoration: none;
+}
+
+.sign-up a:hover{
+    text-decoration: underline;
+}
+
+.login-card h2{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signInWithGoogle button{
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: 0px solid black;
+    background:white;
+    color: black;
+    box-shadow: 0 0 2px black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.signInWithGoogle button:hover{
+    box-shadow: 0 0 5px black;
+}
+
+.signInWithGoogle .color-google-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 65%;
+    bottom: 11.82%;
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+}
+
+.github p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.github a{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+    color: rgb(21, 91, 197);
+    text-decoration: none;
+}
+
+.github a:hover{
+    text-decoration: underline;
+}
